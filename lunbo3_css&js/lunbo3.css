@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+.main{
+	margin:50px auto;
+	position: relative;
+	width: 960px;
+	height: 298px;
+	overflow: hidden;
+}
+.photo{
+	width:7000px;
+	position: absolute;
+	top: 0;
+	left: -20px;
+}
+.photo a{
+	display: inline-block;
+	width: 960px;
+	height: 298px;
+	float: left;
+}
+.image1{
+	background: url(../image/p_01.jpg);
+}
+.image2{
+	background: url(../image/p_02.jpg);
+}
+.image3{
+	background: url(../image/p_03.jpg);
+}
+.image4{
+	background: url(../image/p_04.jpg);
+}
+.image5{
+	background: url(../image/p_05.jpg);
+}
+.image6{
+	background: url(../image/p_06.jpg);
+}
+.image7{
+	background: url(../image/p_07.jpg);
+}
+
+.dots{
+	position: absolute;
+	left: 386px;
+	bottom: 30px;
+	cursor: pointer;
+}
+
+.dots .dots_1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: rgba(192,192,192,0.8);
+}
+
+.dots .active{
+	background: rgb(255,255,255);
+}
+
+.button-left{
+	width: 35px;
+	height: 66px;
+	position: absolute;
+	left: 0;
+	top: 149px;
+	margin-top: -33px;
+	border-radius: 5px 0 0 5px;
+	background: url(../image/p_08.png) no-repeat center center;
+	background-color: rgba(0,0,0,0.6);
+	transform: rotate(180deg);
+	cursor: pointer;
+}
+.button-left:hover,
+.button-right:hover{
+	background-color: rgba(0,0,0,0.9)
+}
+
+.button-right{
+	width: 35px;
+	height: 66px;
+	position: absolute;
+	right: 0;
+	top: 149px;
+	margin-top: -33px;
+	border-radius: 5px 0 0 5px;
+	background: url(../image/p_08.png) no-repeat center center;
+	background-color: rgba(0,0,0,0.6);
+	cursor: pointer;
+}
